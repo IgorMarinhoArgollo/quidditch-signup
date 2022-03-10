@@ -1,5 +1,5 @@
 # Quidditch Fans Registration Form Project
-This project was inspired on a project I did while studying Fundamentals of Web Development in the Trybe course. The project I did during the course was done in pair programming with a friend <a target="_blank" href="https://github.com/Felpsmars">Luiz Felipe Martins</a> later I refactored the code to style it and add some functionalities.
+This project was inspired on a project I did while studying Fundamentals of Web Development in the Trybe course. The project I did during the course was done in pair programming with a friend <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a> later I refactored the code to style it and add some functionalities.
 <br>
  As at that time I didn't know yet how to create routes or post it anywhere, this form does not send the information anywhere but it shows that I know how to build forms.
 <br>
@@ -9,7 +9,7 @@ This project was inspired on a project I did while studying Fundamentals of Web 
  * Responsive design.
 
 ## Live Link
-<a target="_blank" href="https://quidditch-form.netlify.app/">Quidditch Fan Registration Form</a>
+<a href="https://quidditch-form.netlify.app/" target="_blank">Quidditch Fan Registration Form</a>
   
 ## Screenshot
 ![ScreenShot](./images/screenshot.png)
