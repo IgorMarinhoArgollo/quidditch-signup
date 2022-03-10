@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Quidditch Sign Up Forms</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 id="tittle">Quidditch Fans Sign Up Forms</h1>
+  </header>
+  <main>
+    <div id="house">
+      <p>Dear Sir/Madam,<br>We are pleased to invite you to support your house on our 1005th Quidditch
+        Championship.<br>
+        Please select your house to proceed with your sign up.
+      </p>
+      <div id="houseSelector">
+        <img src="./images/gryffindor.png" alt="Gryffindor Icon" id="Gryffindor" class="houseLogo">
+        <img src="./images/hufflepuff.png" alt="Hufflepuff Icon" id="Hufflepuff" class="houseLogo">
+        <img src="./images/ravenclaw.png" alt="Ravenclaw Icon" id="Ravenclaw" class="houseLogo">
+        <img src="./images/slytherin.png" alt="Slytherin Icon" id="Slytherin" class="houseLogo">
+      </div>
+    </div>
+    <img src="./images/smallLogo.png" alt="Hogwarts Logo" id="hogwartsLogo">
+    <form id="signUpForm">
+      <div id="form">
+
+        <label htmlfor="name">Name:
+          <input type="text" id="inputName" placeholder="Name" class="inputForm" name="name" />
+        </label>
+
+        <label htmlFor="lastName">Last Name:
+          <input type="text" id="inputLastName" placeholder="Last Name" class="inputForm" name="lastName" />
+        </label>
+
+        <label htmlfor="email">Email:
+          <input type="email" id="inputEmail" placeholder="Email" name="name" class="inputForm" />
+        </label>
+
+        <label htmlfor="house">House:
+          <select id="choosenHouse" class="inputForm" name="house">
+            <option id="gryffindor">Gryffindor</option>
+            <option id="hufflepuff">Hufflepuff</option>
+            <option id="ravenclaw">Ravenclaw</option>
+            <option id="slytherin">Slytherin</option>
+          </select>
+        </label>
+
+        <div id="wizzard">
+          <h4 id="wizzardTittle">Wizard or Muggle</h4>
+          <label htmlfor="wizzard">
+            <input type="radio" name="wizzardry" value="Wizzard" id="wizzardRadio" class="wizardry" />
+            Wizzard
+          </label>
+
+          <label htmlfor="muggle">
+            <input type="radio" name="wizzardry" value="Muggle" id="muggleRadio" class="wizardry" />
+            Muggle
+          </label>
+        </div>
+
+        <div id="spellsContainer">
+          <h4 id="spellTittle">What spells have you learned?</h4>
+
+          <label htmlfor="alohomora">
+            <input type="checkbox" id="alohomora" value="Alohomora" name="alohomora" class="spell">
+            Alohomora
+          </label>
+
+          <label htmlfor="leviosa">
+            <input type="checkbox" id="leviosa" value="Wingardium Leviosa" name="leviosa" class="spell">
+            Wingardium Leviosa
+          </label>
+
+          <label htmlfor="petrificus">
+            <input type="checkbox" id="petrificus" value="Petrificus Totalus" name="petrificus" class="spell">
+            Petrificus Totalus
+          </label>
+
+          <label htmlfor="expelliarmus">
+            <input type="checkbox" id="expelliarmus" name="expelliarmus" value="Expelliarmus" class="spell">
+            Expelliarmus
+          </label>
+
+          <label htmlfor="flipendo">
+            <input type="checkbox" id="flipendo" value="Flipendo" name="flipendo" class="spell">
+            Flipendo
+          </label>
+
+          <label htmlfor="incendio">
+            <input type="checkbox" id="incendio" value="Incendio" name="incendio" class="spell">
+            Incendio
+          </label>
+        </div>
+
+        <div id="text">
+          <label htmlfor="textarea" id="textLabel">Any comments?</label>
+          <textarea name="textarea" id="textArea" rows="8" maxlength="500"></textarea>
+          <p id="counter">500</p>
+        </div>
+
+        <div id="checkbox">
+          <label id="agreementInfo" htmlfor="agreement">
+            <input type="checkbox" name="agreement" id="agreement">
+            Do you atest the info above?
+          </label>
+        </div>
+
+        <button id="submitBtn" disabled type="submit">Send</button>
+      </div>
+
+      <div id="review">
+        <div id="reviewInfo"></div>
+        <button id="reviewBtn" type="submit">Send</button>
+      </div>
+
+
+      <div id="player">
+        <img src="./images/player.png" alt="Quidditch Player" id="sideImage">
+      </div>
+    </form>
+    <div id="finalMessage">
+      <p id="message">Sorry, all owls are busy rigth now. You can execute the Apparition spell and personally sign up on
+        our counter.</p>
+    </div>
+  </main>
+  <footer> Developed by <b>Igor Marinho</b></footer>
+</body>
+<!-- https://www.hiclipart.com/free-transparent-background-png-clipart-fkjvh
+  https://www.hiclipart.com/free-transparent-background-png-clipart-hznuq
+  https://www.hiclipart.com/free-transparent-background-png-clipart-mfwcg
+  https://www.pngegg.com/en/png-bbbxw
+  https://wallpaperaccess.com/hogwarts
+  https://www.pngegg.com/en/png-dgpft
+  https://www.pngegg.com/en/png-pvlwv
+  https://wallpaperaccess.com/gryffindor
+  https://wallpaperaccess.com/hufflepuff
+  https://wallpaperaccess.com/ravenclaw
+  https://wallpaperaccess.com/slytherin
+   -->
+<script src="script.js"></script>
+
+</html>

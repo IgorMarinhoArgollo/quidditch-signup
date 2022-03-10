@@ -1,0 +1,257 @@
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align      : center;
+  background-color: #10141b;
+  color           : #ffffff;
+  padding         : 10px 0 5px 0;
+  font-family     : 'Dancing Script', cursive;
+}
+
+body {
+  width            : 100%;
+  min-height       : 100vh;
+  background-image : url('./images/bgImg.jpg');
+  background-repeat: no-repeat;
+  background-size  : cover;
+}
+
+#house {
+  width              : 270px;
+  height             : 360px;
+  margin             : 4vh auto;
+  background-image   : url('./images/bgWelcome.png');
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  background-position: center;
+  font-family        : 'Dancing Script', cursive;
+}
+
+#house p {
+  padding  : 35px 25px 0 35px;
+  font-size: 20px;
+}
+
+.houseLogo {
+  width      : 55px;
+  height     : 55px;
+  transform  : translateX(20px);
+  margin-top : 5px;
+  margin-left: 40px;
+}
+
+#signUpForm {
+  display         : none;
+  background-color: black;
+  opacity         : 0.85;
+  max-width       : 60vw;
+  min-height      : 80vh;
+  margin-top      : 3vh;
+  margin-left     : auto;
+  margin-right    : auto;
+  border-radius   : 35px;
+  padding-bottom  : 25px;
+  margin-bottom   : 80px;
+}
+
+#form {
+  margin-top : 25px;
+  margin-left: 15px;
+}
+
+label {
+  color      : #ffffff;
+  font-family: 'Dancing Script', cursive;
+  font-size  : 20px;
+}
+
+.inputForm {
+  display       : flex;
+  margin-bottom : 5px;
+  border-radius : 3px;
+  opacity       : 0.8;
+  flex-direction: column;
+}
+
+#wizzard {
+  margin-top: 15px;
+}
+
+#wizzard::before {
+  position        : absolute;
+  content         : '';
+  height          : 1px;
+  width           : 370px;
+  background-color: #ffffff;
+  margin-bottom   : 5px;
+  max-width       : 170px;
+}
+
+#choosenHouse {
+  margin-bottom: 15px;
+}
+
+#wizzardTittle {
+  font-size     : 20px;
+  font-family   : 'Dancing Script', cursive;
+  color         : #ffffff;
+  margin-bottom : 5px;
+  padding-top   : 10px;
+  padding-bottom: 10px;
+}
+
+#sideImage {
+  max-height: 500px;
+  margin-top: 15vh;
+}
+
+@media screen and (max-width: 600px) {
+  #sideImage {
+    display: none;
+  }
+
+  #hogwartsLogo {
+    display: flex;
+    width  : 100px;
+    height : 150px;
+    margin : 0 auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #hogwartsLogo {
+    display: none;
+  }
+}
+
+#spellsContainer {
+  max-width     : 365px;
+  margin-top    : 10px;
+  display       : flex;
+  flex-direction: column;
+  margin-bottom : 15px;
+}
+
+#spellsContainer::before {
+  position        : absolute;
+  content         : '';
+  height          : 1px;
+  width           : 100%;
+  background-color: #ffffff;
+  margin-bottom   : 5px;
+  max-width       : 170px;
+}
+
+#spellTittle {
+  padding-top   : 10px;
+  color         : #ffffff;
+  font-family   : 'Dancing Script', cursive;
+  font-size     : 20px;
+  padding-bottom: 10px;
+}
+
+#text {
+  display       : flex;
+  flex-direction: column;
+  margin-top    : 10px;
+}
+
+#text::before {
+  position        : absolute;
+  content         : '';
+  height          : 1px;
+  width           : 370px;
+  background-color: #ffffff;
+  margin-bottom   : 15px;
+  max-width       : 170px;
+}
+
+#textLabel {
+  margin-top: 10px;
+}
+
+#textArea {
+  max-width: 170px;
+}
+
+#counter {
+  color        : #ffffff;
+  font-family  : 'Dancing Script', cursive;
+  margin-bottom: 15px;
+}
+
+#submitBtn {
+  text-align: center;
+  width     : 170px;
+  margin-top: 15px;
+}
+
+#review {
+  display       : flex;
+  flex-direction: column;
+  padding       : 15px;
+  font-size     : 20px;
+  display       : none;
+  font-family   : 'Dancing Script', cursive;
+  color         : #ffffff;
+  width         : 100%;
+}
+
+#review h4 {
+  font-size      : 25px;
+  text-decoration: underline;
+  margin         : 25px 15px;
+}
+
+#review p {
+  margin: 10px;
+}
+
+#btnId {
+  height          : 25px;
+  border-radius   : 5px;
+  background-color: #ffffff;
+  color           : black;
+  font-family     : 'Dancing Script', cursive;
+  opacity         : 1;
+  min-width       : 160px;
+  margin-top      : 30px;
+  font-size       : 20px;
+}
+
+#btnId:hover {
+  transform: scale(1.015);
+}
+
+#finalMessage {
+  background-color: black;
+  opacity         : 0.8;
+  border-radius   : 15px;
+  display         : none;
+  width           : 300px;
+  height          : 200px;
+  margin          : 25px auto;
+  font-size       : 27px;
+  font-family     : 'Dancing Script', cursive;
+  color: #ffffff;
+}
+
+#message {
+  margin: 20px 15px;
+}
+
+footer {
+  width           : 100%;
+  text-align      : center;
+  background-color: #10141b;
+  color           : #ffffff;
+  position        : fixed;
+  bottom          : 0;
+  margin          : auto;
+  padding         : 5px;
+  font-size       : 11px;
+}
