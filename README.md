@@ -9,7 +9,8 @@ This project was inspired on a project I did while studying Fundamentals of Web 
  * Responsive design.
 
 ## Live Link
-<a href="http://quidditch-form.netlify.app/" target="_blank">Quidditch Fan Registration Form</a>
+<a href="https://quidditch-form.netlify.app/" target="_blank">Quidditch Fan Registration Form</a>
+[Quidditch Fan Registration Form](https://quidditch-form.netlify.app/){target="_blank"}
   
 ## Screenshot
 ![ScreenShot](./images/screenshot.png)
