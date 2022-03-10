@@ -10,7 +10,7 @@ This project was inspired on a project I did while studying Fundamentals of Web 
 
 ## Live Link
 <a href="https://quidditch-form.netlify.app/" target="_blank">Quidditch Fan Registration Form</a>
-<br> __[Quidditch Fan Registration Form](https://quidditch-form.netlify.app/){target="_blank"}__
+<br> __[Quidditch Fan Registration Form](https://quidditch-form.netlify.app/){:target="\_blank"}__
 
   
 ## Screenshot
