@@ -10,8 +10,6 @@ This project was inspired on a project I did while studying Fundamentals of Web 
 
 ## Live Link
 <a href="https://quidditch-form.netlify.app/" target="_blank">Quidditch Fan Registration Form</a>
-<br> [Quidditch Fan Registration Form](https://quidditch-form.netlify.app/){:target="_blank"  rel="noopener"}
-
   
 ## Screenshot
 ![ScreenShot](./images/screenshot.png)
