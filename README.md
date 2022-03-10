@@ -37,6 +37,6 @@ This project was inspired on a project I did while studying Fundamentals of Web 
      All of the links and fonts are presented on the HTML file.
     
     
-## Development Information
+## Development Information (Original Project)
   Development Commits: 16; <br>
   Time Spent: 2 days; <br> 
