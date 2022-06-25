@@ -1,4 +1,49 @@
 # Quidditch Fans Registration Form Project
+<details>
+  <summary><h2>:brazil: Português</h2></summary>
+  Esse projeto foi inspirado no projeto que fiz enquanto estudando Fundamentos de Desenvolvimento Web no curso da Trybe. O desenvolvimento desse projeto se deu no modelo Pair Programming com o amigo <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a>, depois eu refatorei a estilização e adicionei algumas funcionalidades.
+<br>
+ Como na época eu ainda não tinha conhecimento sobre rotas ou maneiras de envio de informações, o formulário não envia as informações obtidas, contudo, mostra habilidades em construção de formulários além de possibilitar a implementação de alguns Easter Eggs para fãs de Harry Potter.
+<br>
+ Pontos Interessantes:
+ * Mudança de stylo de background em função de preenchimento do formulário;
+ * Easter eggs no site;
+ * Design responsivo.
+  
+  ## Live Link
+  <a href="https://quidditch-form.netlify.app/">Formulário de inscrição para torcida do torneio de Quadribol</a>
+  
+  ## Screenshot
+  ![ScreenShot](./images/screenshot.png)
+  
+  ## Objetivos
+  * Criar uma aplicação web de formulário;
+  * Tornar a aplicação responsiva;
+  * Possuir diferentes tipos de inputs(radio, select, checkbox, text area, text);
+  * Usar algumas Regex.
+  
+  ## Tecnologias usadas
+  * HTML
+  * CSS
+  * Javacript
+  * DOM
+  * Semantic HTML
+  
+  ## Como usar
+  Acesse a página, se envolva na experiência de preencher o formulário para ser parte da torcida do torneio de Quadribol.<br><br>
+  Dicas: <br>
+  Tente se cadastrar como estudante de diferentes casas; <br>
+  Tente se cadastrar como personagens famosos do universo Harry Potter  para ver diferentes intereções( ex.: Hermione Granger, ...). <br><br>
+  Disclaimer: 
+  <br>
+     Todos os links e fontes das imagens estão presentes no arquivo HTML.
+  
+  ## Informações de Desenvolvimento (Projeto Original)
+  Commits de Desenvolvimento: 16; <br>
+  Tempo Gasto: 2 dias;
+</details>
+
+##
 This project was inspired on a project I did while studying Fundamentals of Web Development in the Trybe course. The project I did during the course was done in pair programming with a friend <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a> later I refactored the code to style it and add some functionalities.
 <br>
  As at that time I didn't know yet how to create routes or post it anywhere, this form does not send the information anywhere but it shows that I know how to build forms.
