@@ -1,7 +1,8 @@
 # Quidditch Fans Registration Form Project
 <details>
   <summary><h2>:brazil: Português</h2></summary>
-  Esse projeto foi inspirado no projeto que fiz enquanto estudando Fundamentos de Desenvolvimento Web no curso da Trybe. O desenvolvimento desse projeto se deu no modelo Pair Programming com o amigo <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a>, depois eu refatorei a estilização e adicionei algumas funcionalidades.
+  Esse projeto foi inspirado no projeto que fiz enquanto estudando Fundamentos de Desenvolvimento Web no curso da Trybe para fins educacionais.<br>
+   O desenvolvimento desse projeto se deu no modelo Pair Programming com o amigo <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a>, depois eu refatorei a estilização e adicionei algumas funcionalidades.
 <br>
  Como na época eu ainda não tinha conhecimento sobre rotas ou maneiras de envio de informações, o formulário não envia as informações obtidas, contudo, mostra habilidades em construção de formulários além de possibilitar a implementação de alguns Easter Eggs para fãs de Harry Potter.
 <br>
@@ -33,7 +34,24 @@
   Acesse a página, se envolva na experiência de preencher o formulário para ser parte da torcida do torneio de Quadribol.<br><br>
   Dicas: <br>
   Tente se cadastrar como estudante de diferentes casas; <br>
-  Tente se cadastrar como personagens famosos do universo Harry Potter  para ver diferentes intereções( ex.: Hermione Granger, ...). <br><br>
+  Tente se cadastrar como personagens famosos do universo Harry Potter  para ver diferentes intereções( ex.: Hermione Granger, ...). <br>
+    
+  ## Rodar Localmente
+  ### Requisitos:
+   * Node v16
+   * Google Chrome
+    
+  ### Clonar no seu computador (via SSH)
+  No terminal:
+  
+    git clone git@github.com:IgorMarinhoArgollo/pixel-art.git
+  
+
+  ### Iniciando o projeto localmente
+  No diretório em que o repositório foi clonado, cole o seguinte comando no terminal para iniciar a aplicação localmente:
+   
+      npm start
+   
   Disclaimer: 
   <br>
      Todos os links e fontes das imagens estão presentes no arquivo HTML.
@@ -44,7 +62,7 @@
 </details>
 
 ##
-This project was inspired on a project I did while studying Fundamentals of Web Development in the Trybe course. The project I did during the course was done in pair programming with a friend <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a> later I refactored the code to style it and add some functionalities.
+This project was inspired on a project I did while studying Fundamentals of Web Development in the Trybe course for educational purposes.<br> The project I did during the course was done in pair programming with a friend <a href="https://github.com/Felpsmars" target="_blank">Luiz Felipe Martins</a> later I refactored the code to style it and add some functionalities.
 <br>
  As at that time I didn't know yet how to create routes or post it anywhere, this form does not send the information anywhere but it shows that I know how to build forms.
 <br>
@@ -76,7 +94,23 @@ This project was inspired on a project I did while studying Fundamentals of Web 
   Just go to the page, get imerse on the experience of sign up for be part of the fans on a Quidditch Championship.<br><br>
   Tips: <br>
   Try to sign up as students from differents houses; <br>
-  Try to sign up as kwnon characters to see different interactions ( ex.: Hermione Granger, ...). <br><br>
+  Try to sign up as kwnon characters to see different interactions ( ex.: Hermione Granger, ...). <br>
+    
+## Run Locally
+  ### Requirements:
+   * Node v16
+   * Google Chrome
+    
+  ### Cloning into your computer (via SSH)
+  On terminal:
+
+      git clone git@github.com:IgorMarinhoArgollo/pixel-art.git
+
+  ### Starting project locally
+  On the directory that you have cloned the repository, paste the command on terminal to start the application:
+
+      npm start
+
   Disclaimer: 
   <br>
      All of the links and fonts are presented on the HTML file.
