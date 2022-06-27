@@ -44,7 +44,7 @@
   ### Clonar no seu computador (via SSH)
   No terminal:
   
-    git clone git@github.com:IgorMarinhoArgollo/pixel-art.git
+    git clone git@github.com:IgorMarinhoArgollo/quidditch-signup.git
   
 
   ### Iniciando o projeto localmente
@@ -104,7 +104,7 @@ This project was inspired on a project I did while studying Fundamentals of Web 
   ### Cloning into your computer (via SSH)
   On terminal:
 
-      git clone git@github.com:IgorMarinhoArgollo/pixel-art.git
+      git clone git@github.com:IgorMarinhoArgollo/quidditch-signup.git
 
   ### Starting project locally
   On the directory that you have cloned the repository, paste the command on terminal to start the application:
