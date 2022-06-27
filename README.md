@@ -38,8 +38,8 @@
     
   ## Rodar Localmente
   ### Requisitos:
-   * Node v16
    * Google Chrome
+   * VS Code (com a extensão Live Server)
     
   ### Clonar no seu computador (via SSH)
   No terminal:
@@ -48,9 +48,7 @@
   
 
   ### Iniciando o projeto localmente
-  No diretório em que o repositório foi clonado, cole o seguinte comando no terminal para iniciar a aplicação localmente:
-   
-      npm start
+  Abra o projeto com o VS code e rode o projeto com a extensão Live Server
    
   Disclaimer: 
   <br>
@@ -98,8 +96,8 @@ This project was inspired on a project I did while studying Fundamentals of Web 
     
 ## Run Locally
   ### Requirements:
-   * Node v16
    * Google Chrome
+   * VS Code (with Live Server extension)
     
   ### Cloning into your computer (via SSH)
   On terminal:
@@ -107,9 +105,7 @@ This project was inspired on a project I did while studying Fundamentals of Web 
       git clone git@github.com:IgorMarinhoArgollo/quidditch-signup.git
 
   ### Starting project locally
-  On the directory that you have cloned the repository, paste the command on terminal to start the application:
-
-      npm start
+  Open the project with VS Code and run it with the Live Server Extension.
 
   Disclaimer: 
   <br>
