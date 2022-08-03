@@ -76,12 +76,13 @@
   4. Envie as suas alterações: `git push origin my-feature`;
   5. Abra o seu pull-request na página do GitHub.<br><br>
 
-##  Autor
-<a href="https://www.linkedin.com/in/igormarinhoargollo/">
- <img style="border-radius:300px;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Igor Marinho Argollo</b></sub></a> <a href="https://www.linkedin.com/in/igormarinhoargollo/"></a>
- <br><br>
+##  Autores
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/igormarinhoargollo/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Igor Marinho Argollo</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Felpsmars"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85464159?v=4" width="100px;" alt=""/><br /><sub><b>Luiz Martins</b></sub></a></td>
+  </tr>
+</table>
 
   ## Licença
   Esse projeto está sob a licença:
@@ -154,12 +155,13 @@ This project was inspired on a project I did while studying Fundamentals of Web 
   4. Send your changes: `git push origin my-feature`;
   5. Open your pull-request on GitHub.<br><br>
 
-##  Author
-<a href="https://www.linkedin.com/in/igormarinhoargollo/">
- <img style="border-radius:300px;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Igor Marinho Argollo</b></sub></a> <a href="https://www.linkedin.com/in/igormarinhoargollo/"></a>
- <br />
+##  Authors
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/igormarinhoargollo/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85767736?s=96&v=4" width="100px;" alt=""/><br /><sub><b>Igor Marinho Argollo</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Felpsmars"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/85464159?v=4" width="100px;" alt=""/><br /><sub><b>Luiz Martins</b></sub></a></td>
+  </tr>
+</table>
   
 ## License
   This project is under license:
