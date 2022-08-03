@@ -62,7 +62,7 @@ const review = document.getElementById('reviewInfo');
 
 
 function captureName() {
-  const reviewText = 'Hey, please review your informations so we can inform Dementors.';
+  const reviewText = 'Hey, please review your informations so we can allow you through the magic gates.';
   const message = document.createElement('h4');
   messageSon = review.appendChild(message);
   messageSon.innerText = reviewText;
