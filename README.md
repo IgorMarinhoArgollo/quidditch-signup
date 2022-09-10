@@ -65,10 +65,6 @@
   <br>
      Todos os links e fontes das imagens estão presentes no arquivo HTML.<br><br>
   
-  ## Informações de Desenvolvimento (Projeto Original)
-  Commits de Desenvolvimento: 16; <br>
-  Tempo Gasto: 2 dias;<br><br>
-  
   ## Como contribuir no projeto
   1. Faça um **fork** do projeto;
   2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`;
@@ -142,11 +138,6 @@ This project was inspired on a project I did while studying Fundamentals of Web 
   Disclaimer: 
   <br>
      All of the links and fonts are presented on the HTML file.<br><br>
-    
-    
-## Development Information (Original Project)
-  Development Commits: 16; <br>
-  Time Spent: 2 days; <br><br>
   
 ## How to contribute on the project
   1. Make a **fork** of the project;
